@@ -57,7 +57,7 @@
     "cssOptimize": true,
     "lazyLoad": true,
     "favicon": false,
-    "mbrsiteDomain": "p2bvx2qlhf",
+    "mbrsiteDomain": "kpnpqjiuor",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -70,8 +70,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Szczoteczka Nandme NX-8000, czyli mocny średniak z ciekawymi funkcjami kontroli. Zamów już teraz.",
+        "meta_descr": "Dentystyczna nowość z serii Nandme NX - tryby pulsacyjne, inteligentna funkcja wykrywania nacisku, czujnik wymiany główki i 200 dni pracy na jednym ładowaniu. Zobacz już teraz.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
