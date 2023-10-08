@@ -36,7 +36,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-09-18_1347",
+    "name": "NANDME NX8000",
     "versionFirst": "5.7.12",
     "siteFonts": [
       {
@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 34,
+    "uniqCompNum": 36,
     "versionPublish": "5.7.12",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -57,7 +57,7 @@
     "cssOptimize": true,
     "lazyLoad": true,
     "favicon": false,
-    "mbrsiteDomain": "iu4w9agmhb",
+    "mbrsiteDomain": "p2bvx2qlhf",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -994,7 +994,7 @@
               "text-align": "left"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5 expertm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Lines</header>\n        <select title=\"Lines\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"checkbox\" title=\"Lines Title\" name=\"showLinesTitle\" checked>\n        <input type=\"checkbox\" title=\"Lines Text\" name=\"showLinesText\" checked>\n        <input type=\"color\" title=\"Lines BG\" name=\"linesBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Lines Active BG 1\" name=\"linesBg1\" value=\"#17003b\">\n        <input type=\"color\" title=\"Lines Active BG 2\" name=\"linesBg2\" value=\"#17003b\">\n        <input type=\"range\" inline title=\"Line Active 1\" name=\"lineActive1\" min=\"0\" max=\"100\" step=\"1\" value=\"76\">\n        <input type=\"range\" inline title=\"Line Active 2\" name=\"lineActive2\" min=\"0\" max=\"100\" step=\"1\" value=\"71\" condition=\"cardsAmount >1\">\n        <input type=\"range\" inline title=\"Line Active 3\" name=\"lineActive3\" min=\"0\" max=\"100\" step=\"1\" value=\"80\" condition=\"cardsAmount >2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#212428\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"mbr-section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>SZYBKIE </b><br><b>PORÓWNANIE</b></h3>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Ten model z rodziny szczoteczek NX odnajduje balans między nienaganną estetyką, a dobrą funkcjonalnością. <br><br>Jej bogaty zestaw końcówek oraz sensor zbyt mocnego nacisku gwarantują szybszą, efektywniejszą pracę.<br></h5>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"https://swoimszlakiem-sklep.github.io/Nandme_statystyki/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Zobacz raport</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"lines-container\">\n                    <p class=\"lines-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLinesTitle\" data-app-selector=\".lines-title\"><b>Wydajność</b></p>\n                    <div class=\"lines-wrap\">\n                        <div class=\"line-item-container\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Wytrzymałość baterii (90dni)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-1\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >1\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Czas ładowania (16-22dni)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-2\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >2\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Cicha praca (57dB)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-3\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5 expertm5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Lines</header>\n        <select title=\"Lines\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"checkbox\" title=\"Lines Title\" name=\"showLinesTitle\" checked>\n        <input type=\"checkbox\" title=\"Lines Text\" name=\"showLinesText\" checked>\n        <input type=\"color\" title=\"Lines BG\" name=\"linesBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Lines Active BG 1\" name=\"linesBg1\" value=\"#17003b\">\n        <input type=\"color\" title=\"Lines Active BG 2\" name=\"linesBg2\" value=\"#17003b\">\n        <input type=\"range\" inline title=\"Line Active 1\" name=\"lineActive1\" min=\"0\" max=\"100\" step=\"1\" value=\"76\">\n        <input type=\"range\" inline title=\"Line Active 2\" name=\"lineActive2\" min=\"0\" max=\"100\" step=\"1\" value=\"71\" condition=\"cardsAmount >1\">\n        <input type=\"range\" inline title=\"Line Active 3\" name=\"lineActive3\" min=\"0\" max=\"100\" step=\"1\" value=\"80\" condition=\"cardsAmount >2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-5.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#212428\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"mbr-section-head\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>SZYBKA</b><br><b>OCENA</b></h3>\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Ten model z rodziny szczoteczek NX odnajduje balans między nienaganną estetyką, a dobrą funkcjonalnością. <br><br>Jej bogaty zestaw końcówek oraz sensor zbyt mocnego nacisku gwarantują szybszą, efektywniejszą pracę.<br></h5>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-black\" href=\"https://swoimszlakiem-sklep.github.io/Nandme_statystyki/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Zobacz raport</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-8\">\n                <div class=\"lines-container\">\n                    <p class=\"lines-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLinesTitle\" data-app-selector=\".lines-title\"><b>Wydajność</b></p>\n                    <div class=\"lines-wrap\">\n                        <div class=\"line-item-container\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Wytrzymałość baterii (90dni)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-1\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >1\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Czas ładowania (16-22dni)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-2\"></div>\n                            </div>\n                        </div>\n                        <div class=\"line-item-container\" mbr-if=\"cardsAmount >2\">\n                            <p class=\"line-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showLinesText\" data-app-selector=\".line-text\">Cicha praca (57dB)</p>\n                            <div class=\"line-item\">\n                                <div class=\"line-item-active line-item-active-3\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "afeatures5-k",
           "_isUserblock": true,
           "_cid": "tQlsgVSXsI",
@@ -4149,7 +4149,7 @@
           },
           "_name": "list01",
           "_sourceTheme": "nichem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"nichem5 list1\" group=\"List\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-left mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>FAQ</b>\n                    </h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header first\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Jak długo szczoteczka może pracować na jednym naładowaniu ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Szczoteczka Nandme NX-8000 zaraz po zakupie jest już gotowa to pracy. Na jednorazowym naładowaniu może pracować do 200 dni.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">W jaki sposób szczoteczka przypomni o wymianie końcówki ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Gdy nasza szczoteczka zanotuje maksymalną ilość użyć, podczas gdy będzie włączona zacznie migać 5 razy na niebiesko i wyłączy się automatycznie po tej akcji.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Na jak długo starczy mi 12 końcówek ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">W zestawie znajduje się 12 główek. Zaleca się wymieniać końcówkę co 3 miesiące, więc cały zestaw 12 końcówek powinien starczyć na 3 lata użytkowania.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Czy główki szczoteczek są twarde ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Jeśli chodzi o Nandme NX-8000 w zestawie z 12 główkami mamy 6 końcówek z miękkim włosiem i 6 końcówek z twardym włosiem. Analogicznie 2 końcówkowy zestaw to jedna końcówka z miękkim, a drugą z twardym włosiem. Materiał z którego wykonana jest główka to włosie DuPont, wysokonapięciowe, z okrągłym współczynnikiem szlifowania, który jest mocny i odporny na zużycie, dokładne czyszcząc nasze zęby. </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Co oznacza wodoodporność IPX 7?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">IPX7: czyli typ przeciw-zanurzeniowy,zanurzona szczoteczka&nbsp; w wodzie w określonych warunkach dalej będzie działać, woda nie wejdzie do wnętrza, a produkt będzie mógł być używany dalej normalnie.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Jak długo trwa naładowanie baterii szczoteczki Nandme NX-8000?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Naładowanie baterii szczoteczki Nandme VX-8000 zajmuje zwykle około 16-22 godzin. Po pełnym naładowaniu, szczoteczka może pracować przez około 6 miesięcy przy codziennym regularnym użytkowaniu. Czas pracy może się różnić w zależności od konkretnej intensywności używania szczoteczki</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"nichem5 list1\" group=\"List\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-left mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>FAQ</b>\n                    </h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header first\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Jak długo szczoteczka może pracować na jednym naładowaniu ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Szczoteczka Nandme NX-8000 zaraz po zakupie jest już gotowa to pracy. Na jednorazowym naładowaniu może pracować do 200 dni.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">W jaki sposób szczoteczka przypomni o wymianie końcówki ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Gdy nasza szczoteczka zanotuje maksymalną ilość użyć, podczas gdy będzie włączona zacznie migać 5 razy na niebiesko i wyłączy się automatycznie po tej akcji.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Na jak długo starczy mi 12 końcówek ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">W zestawie znajduje się 12 główek. Zaleca się wymieniać końcówkę co 3 miesiące, więc cały zestaw 12 końcówek powinien starczyć na 3 lata użytkowania.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Czy główki szczoteczek są twarde ?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Jeśli chodzi o Nandme NX-8000 w zestawie z 12 główkami mamy 6 końcówek z miękkim włosiem i 6 końcówek z twardym włosiem. Materiał z którego wykonana jest główka to włosie DuPont, wysokonapięciowe, z okrągłym współczynnikiem szlifowania, który jest mocny i odporny na zużycie, dokładne czyszcząc nasze zęby. </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Co oznacza wodoodporność IPX 7?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">IPX7: czyli typ przeciw-zanurzeniowy.&nbsp;<br>Zanurzona szczoteczka w wodzie w określonych warunkach dalej będzie działać, woda nie wejdzie do wnętrza, a produkt będzie mógł być używany dalej normalnie.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\">Jak długo trwa naładowanie baterii szczoteczki Nandme NX-8000?</h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Naładowanie baterii szczoteczki Nandme NX-8000 zajmuje zwykle około 16-22 godzin. Po pełnym naładowaniu, szczoteczka może pracować przez około 6 miesięcy przy codziennym regularnym użytkowaniu. Czas pracy może się różnić w zależności od konkretnej intensywności używania szczoteczki.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tQfpNcZSxA",
           "_anchor": "list01-4",
           "_protectedParams": [],
@@ -4372,130 +4372,219 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "p": {
-              "text-align": "center"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".text-copyright": {
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
               "width": "100%",
-              "margin-bottom": "0"
-            },
-            ".img-logo-footer": {
-              "margin-right": "1rem",
-              "max-width": "3rem"
-            },
-            ".text-logo-footer": {
-              "display": "inline-block",
-              "vertical-align": "middle",
-              "color": "#ffffff"
-            },
-            ".logo-footer": {
-              "line-height": "normal"
-            },
-            ".copyright": {
-              ".list-inline": {
-                "margin-bottom": "0",
-                ".list-inline-item": {
-                  "margin": "10px 15px",
-                  "@media (max-width: 767px)": {
-                    "margin": "10px 6px"
-                  }
-                }
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
               }
             },
-            "li": {
-              "overflow": "hidden"
-            },
-            ".icon-transition": {
-              "span": {
-                "display": "block"
-              },
-              "&:hover": {
-                "span": {
-                  "animation": "0.3s linear top"
-                }
-              }
-            },
-            ".list-inline-item": {
-              "a": {
-                "display": "block"
-              },
-              "&:hover": {
-                "a": {
-                  "animation": "0.3s linear top"
-                }
-              }
-            },
-            "@keyframes top": {
-              "0%": {
-                "transform": "translateY(0px)"
-              },
-              "50%": {
-                "transform": "translateY(-100%)"
-              },
-              "51%": {
-                "transform": "translateY(100%)"
-              },
-              "100%": {
-                "transform": "translateY(0)"
-              }
-            },
-            ".social-btns": {
-              "display": "flex",
-              "align-items": "center",
+            ".social-row": {
+              "display": "inline-flex",
+              "flex-wrap": "wrap",
               "justify-content": "center"
             },
-            ".media-container-row": {
-              "align-items": "center",
-              "justify-content": "space-between"
+            ".socicon": {
+              "color": "@icon",
+              "font-size": "2rem"
             },
-            ".icon-transition span": {
-              "color": "#ffffff",
-              "display": "block",
-              "text-align": "center",
-              "height": "2rem",
-              "border-radius": "50%",
-              "line-height": "2rem",
-              "width": "2rem",
-              "transition": "all 0.3s ease-out 0s",
-              "font-size": "1.5rem"
+            ".row": {
+              "justify-content": "space-around"
             },
-            ".social-media": {
+            ".soc-item": {
               "display": "flex",
-              "justify-content": "flex-end",
-              "ul": {
-                "margin": "0",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "@iconbg",
+              "margin-left": "0.8rem",
+              "margin-bottom": "1.5rem",
+              "padding": "0.5rem",
+              "height": "3.5rem",
+              "width": "3.5rem",
+              "transition": "all 0.3s",
+              "@media (max-width: 767px)": {
+                "padding": "0 0.25rem",
+                "height": "2.8rem",
+                "width": "2.8rem",
+                ".socicon": {
+                  "font-size": "1.5rem"
+                }
+              },
+              "&:hover": {
+                "background": "@secondaryColor"
+              }
+            },
+            "form": {
+              "border-bottom": "2px solid @border",
+              "padding": "0"
+            },
+            ".form-group": {
+              "margin-bottom": "0!important",
+              "width": "fit-content"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "0rem"
+            },
+            ".btn": {
+              "background": "transparent!important",
+              "border": "none",
+              "padding": "0",
+              "width": "fit-content !important",
+              "margin-right": "0",
+              "margin-left": "auto",
+              "&:hover": {
+                "background": "transparent!important",
+                "border": "none",
+                "color": "@secondaryColor !important"
+              }
+            },
+            "input": {
+              "background": "transparent",
+              "border": "none!important",
+              "padding": "0",
+              "box-shadow": "none",
+              "&:hover, &:focus": {
+                "box-shadow": "none"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323"
+            },
+            "H1": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#65c6d4"
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            }
+          },
+          "_name": "form01",
+          "_sourceTheme": "investm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n                <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"showSocial\">\n         <header>Color</header>\n        <input type=\"color\" name=\"border\" title=\"Form Border\" value=\"#ffffff\" selected>\n        <input type=\"color\" name=\"icon\" title=\"Icon\" value=\"#272523\" selected condition=\"showSocial\">\n        <input type=\"color\" name=\"iconbg\" title=\"Icon BG\" value=\"#ffffff\" selected condition=\"showSocial\">\n        \n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#17003b\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"col-lg-3 col-md-12 mb-5 mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"xampiotris@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"xampiotris@gmail.com\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Dziękujemy za zapisanie.</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> Oops...! some problem! </div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<h1 mbr-theme-style=\"display-5\" class=\"mbr-section-title mb-4 align-left mbr-fonts-style\" mbr-if=\"showTitle\"><b>ZAPISZ SIE</b></h1>\n</div>\n<div data-for=\"email\" class=\"col-lg col-md col-12 form-group mb-3\">\n<input type=\"email\" name=\"email\" placeholder=\"EMAIL\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-md-auto col mbr-section-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\"><a type=\"submit\" class=\"w-100 w-100 btn btn-black\" data-app-placeholder=\"Type Text\">OK</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n            <div class=\"col-lg-7 col-md-12 align-right\">\n            <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-facebook\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-twitter\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </div>\n                 <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n                \n  <div class=\"col-lg-12 col-md-12 col-sm-12\">\n<p mbr-theme-style=\"display-7\" mbr-if=\"showText\" class=\"mbr-text mbr-fonts-style mb-5 align-right\" data-app-selector=\".mbr-text\"><b>&nbsp; &nbsp;&nbsp;</b></p>\n\n                  </div>\n            \n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "form01-z",
+          "_isUserblock": true,
+          "_cid": "tS5yN6ghY8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            "img": {
+              "width": "60px"
+            },
+            ".col-lg-3": {
+              "@media (max-width: 992px)": {
+                "text-align": "center"
+              }
+            },
+            ".row": {
+              "border-bottom": "2px solid @border",
+              "padding-bottom": "1rem"
+            },
+            ".name-wrap": {
+              "display": "inline-flex",
+              "align-items": "flex-end",
+              "padding-bottom": "12px",
+              "p": {
+                "padding-left": "0.5rem"
+              },
+              "@media (max-width: 992px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".media-container-row": {
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "inline-flex",
+                "justify-content": "center",
+                "flex-wrap": "wrap",
                 "padding": "0",
+                "margin-bottom": "0",
+                "margin-top": "auto",
+                "height": "100%",
+                "align-items": "flex-end",
                 "li": {
-                  "padding": "4px",
-                  "display": "inline-block"
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
                 }
               }
             },
-            "@media (max-width: 991px)": {
-              ".logo-footer": {
-                "text-align": "center"
-              },
-              ".social-media": {
-                "justify-content": "center"
-              }
+            ".foot-menu-item": {
+              "color": "#bbbbbb"
+            },
+            ".foot-menu-item .foot-menu-item": {
+              "text-align": "right"
+            },
+            ".media-container-row .mbr-text": {
+              "text-align": "left"
             }
           },
           "_name": "footer01",
-          "_sourceTheme": "nichem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"nichem5 footer1\" group=\"Footers\" always-bottom global once=\"footer\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"range\" inline title=\"Items Count\" name=\"itemsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"3\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#17003b\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0a1126\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"col-lg-5 logo-footer mb-3 mt-3 align-left\">\n\n                <p class=\"mbr-fonts-style  text-logo-footer pt-2 mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".text-logo-footer\">© swoimszlakiem-sklep.pl.<br>All Rights Reserved.</p>\n            </div>\n            <div class=\"col-lg-5 copyright mb-3 mt-3 align-self-center\">\n                <ul mbr-list mbr-list-grow=\"itemsCount\" class=\"mbr-list list-inline align-center\">\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"></li>\n                    \n                    \n\n\n\n                    \n                <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"></li><li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list-inline-item, .mbr-list, .first-column\"></li></ul>\n            </div>\n            <div class=\"social-media col-lg-2 col-sm-12 align-self-center\" mbr-if=\"showIcons\">\n                <ul>\n                    <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\">\n                            </span>\n                        </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\">\n                            </span>\n                        </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\">\n                            </span>\n                        </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\">\n                            </span>\n                        </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "tqJ47Lt4tP",
-          "_anchor": "footer01-7",
+          "_sourceTheme": "investm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Border\" name=\"border\" value=\"#bbbbbb\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#17003b\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <div class=\"col-lg-3 p-0 align-left\">\n                <div class=\"name-wrap\">\n                  <img src=\"@PROJECT_PATH@/assets/images/logo-1.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-5\" data-app-selector=\".media-container-row .mbr-text\">Bezpieczny produkt</p>\n       </div>\n                </div>\n                <div class=\"col-lg-9 p-0 align-right\">\n                \n                <ul class=\"foot-menu\" mbr-list data-app-selector=\".foot-menu-item\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".foot-menu-item\">© Copyright 2030 swoimszlakiem-sklep.pl. All Rights Reserved</li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n           </div>\n          \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "footer01-y",
+          "_isUserblock": true,
+          "_cid": "tS5yLo0vp8",
           "_protectedParams": [],
           "_global": true,
-          "_once": "footer",
+          "_once": "footers",
           "_params": {}
         }
       ]
