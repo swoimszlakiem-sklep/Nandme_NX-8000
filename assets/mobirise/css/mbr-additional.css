@@ -2501,6 +2501,7 @@ a {
 }
 .cid-tQiLmYugf1 .card-text {
   padding: 3rem 1rem;
+  color: #6bffc7;
 }
 @media (max-width: 767px) {
   .cid-tQiLmYugf1 .card-text {
@@ -2859,7 +2860,7 @@ a {
 }
 .cid-tQv3YfHMeA .mbr-text,
 .cid-tQv3YfHMeA .mbr-section-btn {
-  color: #232323;
+  color: #ffffff;
   text-align: center;
 }
 @keyframes slidein {
@@ -2881,6 +2882,9 @@ a {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1920x1338.webp");
+}
+.cid-tQv40fhjD5 .row {
+  flex-direction: row-reverse;
 }
 .cid-tQv40fhjD5 .price-wrapper {
   position: absolute;
